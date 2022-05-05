@@ -1,4 +1,3 @@
-# my-app
 pipeline {
     agent any 
     stages {
