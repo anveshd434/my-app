@@ -14,7 +14,7 @@ pipeline {
             steps {
                // sh "cd"
                //sh "/usr/local/Cellar/maven/3.8.5/bin/mvn test -f my-app/"
-              sh "/usr/local/Cellar/maven/3.8.5/bin/mvn test"
+              sh "/usr/local/Cellar/maven/3.8.5/bin/mvn package"
             }
         }
         stage('Package=======') { 
